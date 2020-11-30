@@ -65,3 +65,64 @@ Floorplan Analysis on Magic:
 
 # Placement
 ![](Snapshots/placement.png)
+
+Placement on Magic:
+![](Snapshots/placement_magic.png)
+
+# Standard cell design and characterization
+Cloning the required custom cell files:
+![](Snapshots/custom_cell_gitclone.png)
+
+Custom Inverter Cell on Magic:
+![](Snapshots/custom_inv_magic.png)
+
+Export to Ngspice for analysis:
+![](Snapshots/custom_inv_spice.png)
+
+Spice file:
+![](Snapshots/custom_inv_spice_file.png)
+
+## Invoke ngspice
+![](Snapshots/invoke_ngspice.png)
+
+Transient Analysis of Custom Inverter Cell:
+![](Snapshots/inv_transient.png)
+
+Lef file of Custom Inverter Cell:
+![](Snapshots/inv_lef.png)
+
+Lib file for inclusion of custom cell:
+![](Snapshots/scr_custom_inv.png)
+
+Custom config for inclusion of custom cell:
+![](Snapshots/inv_config.png)
+
+Synthesis prep witj custom inverter cell:
+![](Snapshots/inv_synthesis.png)
+
+Synthesis:
+![](Snapshots/inv_synthesis.png)
+
+# Timing Analysis
+Synthesis with better slack: 
+![](Snapshots/inv_synth2.png)
+
+Floorplan with custom Inverter cell:
+![](Snapshots/inv_floorplan.png)
+
+Placement with Custom Inverter celll:
+![](Snapshots/inv_placement.png)
+
+Placement of custom inverter cell on Magic:
+![](Snapshots/inv_placement_magic.png)
+
+# Clock Tree Synthesis
+Command for CTS. Ran with the default config. 
+```
+run_cts
+```
+The output of CTS stage will provide a new netlist in ~/results/synthesis/ folder name picorv32a.synthesis_cts.v
+
+# Routing
+
+# DRC
