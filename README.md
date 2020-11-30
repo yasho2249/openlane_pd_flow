@@ -4,15 +4,21 @@ This repo is an attempt at and a tutorial for the OpenLane Physical Design Flow
 
 * RTL2GDS flow
 * Introduction to OpenLANE
-* Floorplan considerations
-* Standard cell Flow and Characterization
-* Introduction to sky130 tech file
+* Synthesis
+* Floorplan
+* Placement
+* Standard cell design and characterization
 * Timing Analysis
-* CTS
+* Clock Tree Synthesis
 * Routing
 * DRC
 
 # RTL2GDS flow
-![](Snapshots/rtl2gds.PNG)
+![](Snapshots/rtl2gds.png)
 
-## 
+# Introdction to OpenLANE
+![](Snapshots/openlane_flowchart.png)
+
+## Invoking OpenLANE 
+![](Snapshots/openlane_invoke.png)
+
