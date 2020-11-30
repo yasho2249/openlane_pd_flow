@@ -1,4 +1,4 @@
-This repo is an attempt and a tutorial for the OpenLane Physical Design Flow
+This repo is an attempt at and a tutorial for the OpenLane Physical Design Flow
 
 # Table of Contents
 
@@ -12,3 +12,7 @@ This repo is an attempt and a tutorial for the OpenLane Physical Design Flow
 * Routing
 * DRC
 
+# RTL2GDS flow
+![](Snapshots/rtl2gds.PNG)
+
+## 
